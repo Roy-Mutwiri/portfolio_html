@@ -73,3 +73,17 @@ nav ul li a:hover::after{
 
     width: 100%;
 }
+
+.header-text{
+
+    margin-top: 20px;
+    font-size: 30px;
+
+}
+
+.header-text h1{
+
+    font-size: 60px;
+    margin-top: 20px;
+
+}
