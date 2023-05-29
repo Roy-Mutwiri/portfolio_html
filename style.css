@@ -87,3 +87,8 @@ nav ul li a:hover::after{
     margin-top: 20px;
 
 }
+
+.header-text h1 span{
+
+    color: #ff004f;
+}
