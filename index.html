@@ -63,24 +63,24 @@ By combining his self-taught expertise with recognized certifications, Roy posit
 
                 <div class="tab-titles">
 
-                    <p class="tab-links active-links">Skills</p>
-                    <p class="tab-links">Experince</p>
-                    <p class="tab-links">Education</p>
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('experience')">Experince</p>
+                    <p class="tab-links"onclick="opentab('education)">Education</p>
                 </div>
-                <div class="tab-contents">
+                <div class="tab-contents active-tab" id="skills">
                     <ul>
                         <li><span>Python</span><br>GUI Development</li>
                         <li><span>SQL</span><br>Database Administration</li>
                         <li><span>HTML & CSS</span><br>Web Development</li>
                     </ul>
                 </div>
-                <div class="tab-contents">
+                <div class="tab-contents" id="experince">
                     <ul>
                         <li><span>2023 - Current</span><br>Kamukunji College Website</li>
                         <li><span>2022</span><br>Built A Telegram ChatBot Using ChatGPT API</li>
                     </ul>
                 </div>
-                <div class="tab-contents">
+                <div class="tab-contents"id="education">
                     <ul>
                         <li><span>2022 -  Current</span><br>Kamukunji College Diploma In Information Communication Technology</li>
                         <li><span>2022</span><br>SoloLearn Python</li>
@@ -92,5 +92,21 @@ By combining his self-taught expertise with recognized certifications, Roy posit
         </div>
     </div>
 </div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var contents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabbcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+
+    }
+
+</script>
 </body>
 </html>

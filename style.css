@@ -165,7 +165,7 @@ nav ul li a:hover::after{
 
 }
 
-.tab-links.active-links::after{
+.tab-links.active-link::after{
 
 
     width: 50px;
@@ -187,4 +187,9 @@ nav ul li a:hover::after{
 
     display: none;
 
+}
+
+.tab-contents.active-tab{
+
+    display: block;
 }
