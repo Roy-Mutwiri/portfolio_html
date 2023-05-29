@@ -172,3 +172,14 @@ nav ul li a:hover::after{
 
 
 }
+
+.tab-content ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+
+.tab-contents ul li span{
+    color: #b54769;
+    font-size: 14px;
+}
+
