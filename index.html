@@ -74,7 +74,7 @@ By combining his self-taught expertise with recognized certifications, Roy posit
                         <li><span>HTML & CSS</span><br>Web Development</li>
                     </ul>
                 </div>
-                <div class="tab-contents" id="experince">
+                <div class="tab-contents" id="experience">
                     <ul>
                         <li><span>2023 - Current</span><br>Kamukunji College Website</li>
                         <li><span>2022</span><br>Built A Telegram ChatBot Using ChatGPT API</li>
@@ -104,7 +104,9 @@ By combining his self-taught expertise with recognized certifications, Roy posit
         for(tabcontent of tabcontents){
             tabcontent.classList.remove("active-tab");
         }
-        event.currentTarget.classList.add("active-link")
+        event.currentTarget.classList.add("active-link");
+
+        document.getElementById(tabname).classList.add("active-tab");
 
     }
 
