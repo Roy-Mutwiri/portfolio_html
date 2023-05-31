@@ -173,6 +173,32 @@ span{
     box-shadow: none;
 }
 
+.about{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: var(--second-bg-color);
+}
+
+.about-img img{
+
+    width: 35vw;
 
 
+
+}
+.heading{
+
+    text-align: center;
+    font-size: 4.5rem;
+
+}
+
+.about-content h2{
+
+    text-align: left;
+    line-height: 1.2;
+}
 
