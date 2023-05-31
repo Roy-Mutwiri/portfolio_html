@@ -95,6 +95,7 @@ section{
 .home-img{
 
     width: 35vw;
+    border-radius: 20px;
     
 }
 
@@ -152,5 +153,26 @@ span{
     color: var(--second-bg-color);
     box-shadow: 0 0 1rem var(--main-color);
 }
+
+.btn{
+
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1.6rem;
+    color: var(--second-bg-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+.btn:hover{
+
+    box-shadow: none;
+}
+
+
 
 
