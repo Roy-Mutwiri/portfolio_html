@@ -260,23 +260,3 @@ span{
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
 }
-
-
-.portfolio{
-
-    background: var(--second-bg-color);
-}
-
-
-.portfolio h2{
-
-    margin-bottom: 4rem;
-}
-
-.portfolio-container{
-
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    gap: 2.5rem;
-}
