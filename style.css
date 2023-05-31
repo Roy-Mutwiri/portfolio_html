@@ -236,3 +236,27 @@ span{
     text-align: center;
     border: .2rem solid var(--bg-color);
 }
+
+.services-container .services-box:hover{
+
+    border-color: var(--main-color);
+    transform: scale(1.02);
+}
+
+.services-box i{
+
+    font-size: 7rem;
+    color: var(--main-color);
+}
+
+.services-box h3{
+
+    font-size: 2.6rem;
+}
+
+.services-box p{
+
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+}
+
