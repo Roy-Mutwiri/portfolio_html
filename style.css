@@ -95,6 +95,7 @@ section{
 .home-img{
 
     width: 35vw;
+    
 }
 
 .home-content h3{
@@ -109,6 +110,12 @@ section{
     font-size: 5.6rem;
     font-weight: 700;
     line-height: 1.3;
+}
+
+.home-content p{
+
+    font-size: 1.6rem;
+
 }
 
 
