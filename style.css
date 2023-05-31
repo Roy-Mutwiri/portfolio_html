@@ -105,6 +105,16 @@ section{
 
 }
 
+.home-content h3:nth-of-type(2){
+
+    margin-bottom: 2rem;
+}
+
+span{
+
+    color: var(--main-color);
+}
+
 .home-content h1{
 
     font-size: 5.6rem;
@@ -132,7 +142,15 @@ section{
     font-size: 2rem;
     color: var(--main-color);
     margin: 3rem 1.5rem 3rem 0;
+    transition: .5s ease;
 
+}
+
+.social-media a:hover{
+
+    background: var(--main-color);
+    color: var(--second-bg-color);
+    box-shadow: 0 0 1rem var(--main-color);
 }
 
 
