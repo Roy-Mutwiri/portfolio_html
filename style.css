@@ -84,3 +84,25 @@ section{
     display: none;
 }
 
+.home{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.home-content h3{
+
+    font-size: 3.2rem;
+    font-weight: 700;
+
+}
+
+.home-content h1{
+
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
