@@ -291,9 +291,15 @@ span{
 
 }
 
-.portfolio-box img{
+.portfolio-box img {
 
     width: 100%;
+    transition: .5s ease;
+}
+
+.portfolio-box:hover img{
+    transform: scale(1.1);
+
 }
 
 .portfolio-box .portfolio-layer {
@@ -308,5 +314,47 @@ span{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
+    padding: 0 4rem;
+    transform: translateY(100%);
+    transition: .5s ease;
 
+}
+
+
+.portfolio-box:hover .portfolio-layer{
+
+    transform: translateY(0);
+
+
+}
+
+.portfolio-layer h4 {
+
+    font-size: 3rem;
+}
+
+.portfolio-layer p{
+
+    font-size: 1.6rem;
+    margin: .3rem 0 1rem;
+}
+
+
+.portfolio-layer a {
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background: var(--text-color);
+    border-radius: 50%;
+}
+
+
+.portfolio-layer a i{
+
+    font-size: 2rem;
+    color: var(--second-bg-color);
 }
