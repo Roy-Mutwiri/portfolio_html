@@ -434,5 +434,16 @@ span{
     padding: .8rem;
     background: var(--main-color);
     border-radius: .8rem;
+    transition: .5s ease;
 }
 
+.footer-iconTop a:hover{
+
+    box-shadow: 0 0 1rem var(--main-color);
+}
+
+.footer-iconTop a i {
+
+    font-size: 2.4rem;
+    color: var(--second-bg-color);
+}
