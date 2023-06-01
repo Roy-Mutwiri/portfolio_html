@@ -21,5 +21,5 @@ window.onscroll = () => {
 
     /*-------------Sticky navbar---------------*/
 
-    
+    let header = document.toggle('sticky', window.screenY > 100);
 };
