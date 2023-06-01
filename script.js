@@ -1,3 +1,4 @@
+/*===================toggle icon navbar===============*/
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
@@ -39,5 +40,15 @@ window.onscroll = () => {
 
     /*-------------Sticky navbar---------------*/
 
-    let header = document.toggle('sticky', window.screenY > 100);
+    let header = document.querySelector('header');
+
+    header.classList.toggle('sticky', window.scrollY > 100);
+
+
+    /*===================remove toggle icon and navbar when click===============*/
+
+    menuIcon.classList.remove('bx-x');
+    navbar.classList.remove('active');
+
+
 };
