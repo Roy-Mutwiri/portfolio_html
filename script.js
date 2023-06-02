@@ -78,3 +78,17 @@ ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact 
 ScrollReveal().reveal('.home-content h1, .about-img',{ origin: 'left' });
 
 ScrollReveal().reveal('.home-content p, .about-content',{ origin: 'right' });
+
+
+/*-----------typed text---------------*/
+
+
+const typed = new Typed('.multiple-text',{
+
+    strings: ['Python Developer','Web Developer','Database Administrator'],
+    typeSpeed:100,
+    backspeed: 100,
+    backDelay:1000,
+    loop:true
+
+});

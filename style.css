@@ -96,11 +96,23 @@ section{
 
 
 }
-.home-img{
+.home-img img{
 
     width: 35vw;
-    border-radius: 20px;
+    animation: floatImage 4s ease-in-out infinite;
     
+}
+
+@keyframes floatImage {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5.4rem);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 
 .home-content h3{
