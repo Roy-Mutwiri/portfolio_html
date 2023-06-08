@@ -519,7 +519,9 @@ span{
 
     .navbar{
 
-        position: absolute;
+
+
+        position: absolute; /*navbar*/
         top: 100%;
         left: 0;
         width: 100%;
@@ -636,4 +638,5 @@ span{
         text-align: center;
         margin-top: 2rem;
     }
+
 }
