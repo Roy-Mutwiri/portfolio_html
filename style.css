@@ -640,3 +640,18 @@ span{
     }
 
 }
+
+
+
+/*--------------------custom scroll ---------------*/
+
+::-webkit-scrollbar{
+
+    width:  15px;
+}
+
+::-webkit-scrollbar-track{
+
+    background: #d1e5ff;
+}
+
