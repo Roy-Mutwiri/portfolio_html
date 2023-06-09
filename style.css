@@ -655,3 +655,8 @@ span{
     background: #d1e5ff;
 }
 
+
+::-webkit-scrollbar-thumb{
+
+    background: linear-gradient(#642bff, #ff22e6);
+}
