@@ -65,6 +65,19 @@ section{
 
 }
 
+:
+#icon{
+
+    width: 30px;
+    cursor: pointer;
+}
+
+nav{
+
+    flex: 1;
+    text-align: right;
+}
+
 .navbar a {
 
     font-size: 1.7rem;
