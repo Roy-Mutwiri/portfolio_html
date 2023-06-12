@@ -64,8 +64,14 @@ section{
     cursor: pointer;
 
 }
+/*--------To be continued------------------*/
+:root{
 
-:
+    --primary-color:var(--bg-color);
+    --secondary-color: #212121;
+}
+
+
 #icon{
 
     width: 30px;
